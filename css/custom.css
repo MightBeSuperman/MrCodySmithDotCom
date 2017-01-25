@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: yellowgreen;
+    color: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -96,7 +96,7 @@ header .header-content .header-content-inner p {
 
 .intro {
 	color: #fff;
-    background-color: yellowgreen;
+    background-color: #222;
     padding: 70px 0;
     text-align: center;
 }
@@ -122,7 +122,7 @@ header .header-content .header-content-inner p {
 .promo a:hover,
 .promo a:active {
     color: white;
-	text-shadow: 0px 0px 40px black;
+	text-shadow: 5px 5px 40px black;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ header .header-content .header-content-inner p {
 }
 
 .promo-item:hover {
-    background-size: 110%; 
+    background-size: 110%;
     border: 10px solid rgba(255,255,255,0.3);
     line-height: 160px;
 }
@@ -147,15 +147,15 @@ header .header-content .header-content-inner p {
 .item-1 {
 	background: url('../images/writing.jpg');
 	}
-	
+
 .item-2 {
 	background: url('../images/concert.jpg');
 	}
-	
+
 .item-3 {
 	background: url('../images/pencil_sharpener.jpg');
 	}
-		
+
 .item-1,
 .item-2,
 .item-3 {
@@ -169,7 +169,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: yellowgreen;
+	background-color: #222;
 	color: #fff;
 	}
 
@@ -177,13 +177,13 @@ header .header-content .header-content-inner p {
 	font-size: 22px;
 	font-weight: 300;
 	}
-	
-.content-3 .glyphicon,	
+
+.content-3 .glyphicon,
 .page-footer .contact .glyphicon {
 	font-size: 32px;
 	font-weight: 700;
 	}
-		
+
 .page-footer .small-print {
 	padding: 50px 0 40px;
 	font-weight: 300;
@@ -217,12 +217,12 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: yellowgreen;
+    color: red;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: yellowgreen!important;
+    color: #222!important;
     background-color: transparent;
 }
 
@@ -244,7 +244,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #222;
     }
 
     .navbar-default .nav > li>a,
@@ -254,7 +254,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #222;
     }
 
     .navbar-default.affix {
@@ -265,7 +265,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: yellowgreen;
+        color: red;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -333,14 +333,14 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-default .badge {
-    color: #fff;
+    color: white;
     background-color: #222;
 }
 
 .btn-primary {
-    border-color: yellowgreen;
-    color: #fff;
-    background-color: yellowgreen;
+    border-color: black;
+    color: white;
+    background-color: black;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -352,9 +352,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: limegreen;
-    color: #fff;
-    background-color: limegreen;
+    border-color: transparent;
+    color: limegreen;
+    background-color: #222;
 }
 
 .btn-primary:active,
@@ -386,7 +386,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary .badge {
-    color: yellowgreen;
+    color: #222;
     background-color: #fff;
 }
 
